@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.ea.SpringBasic",
+    "children" : [ {
+      "name" : "SpringTestNGTestNew",
+      "children" : [ {
+        "name" : "testLogin",
+        "uid" : "b250d34171145d8e",
+        "parentUid" : "38f931addf0c0aa9dac9e515154bcd3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640538730237,
+          "stop" : 1640538731873,
+          "duration" : 1636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38f931addf0c0aa9dac9e515154bcd3a"
+    }, {
+      "name" : "SpringTestNGTest",
+      "children" : [ {
+        "name" : "testLogin",
+        "uid" : "445dd21de67c8edd",
+        "parentUid" : "1e05266e4e5e627d957717d1019657ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640538731590,
+          "stop" : 1640538732975,
+          "duration" : 1385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e05266e4e5e627d957717d1019657ae"
+    } ],
+    "uid" : "com.ea.SpringBasic"
+  } ],
+  "name" : "packages"
+}

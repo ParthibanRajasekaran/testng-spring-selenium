@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "spring-boot",
+    "children" : [ {
+      "name" : "test-2",
+      "children" : [ {
+        "name" : "com.ea.SpringBasic.SpringTestNGTestNew",
+        "children" : [ {
+          "name" : "This is a new testng test is to validate login",
+          "uid" : "b250d34171145d8e",
+          "parentUid" : "5feb219e6d74d195ccf08aa19511b000",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640538730237,
+            "stop" : 1640538731873,
+            "duration" : 1636
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5feb219e6d74d195ccf08aa19511b000"
+      } ],
+      "uid" : "f6d80cae68419bd57f86752acb1cc68a"
+    }, {
+      "name" : "test-1",
+      "children" : [ {
+        "name" : "com.ea.SpringBasic.SpringTestNGTest",
+        "children" : [ {
+          "name" : "This testng test is to validate login",
+          "uid" : "445dd21de67c8edd",
+          "parentUid" : "1c55320355eb65099f5a824721697d44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640538731590,
+            "stop" : 1640538732975,
+            "duration" : 1385
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1c55320355eb65099f5a824721697d44"
+      } ],
+      "uid" : "e9e27e1a5185b70e9596f408321c6136"
+    } ],
+    "uid" : "aa5f3aa99f92f203e374730be3f423c7"
+  } ],
+  "name" : "suites"
+}
