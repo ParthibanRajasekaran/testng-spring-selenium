@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.pages;
+package com.qa.pages;
 
 import javax.annotation.PostConstruct;
 import org.openqa.selenium.WebDriver;

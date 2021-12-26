@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.pages;
+package com.qa.pages;
 
 
 import io.qameta.allure.Step;

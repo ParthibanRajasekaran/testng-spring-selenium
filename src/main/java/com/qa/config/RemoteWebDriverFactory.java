@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.core;
+package com.qa.config;
 
 import java.net.URL;
 import org.openqa.selenium.WebDriver;

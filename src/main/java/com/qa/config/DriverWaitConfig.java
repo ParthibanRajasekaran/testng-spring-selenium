@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.core;
+package com.qa.config;
 
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;

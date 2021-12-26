@@ -1,6 +1,7 @@
-package com.ea.SpringBasic;
+package com.qa.feature;
 
-import com.ea.SpringBasic.pages.MainPage;
+import com.qa.common.BaseTest;
+import com.qa.pages.MainPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;

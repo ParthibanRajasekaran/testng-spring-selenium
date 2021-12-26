@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.pages;
+package com.qa.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

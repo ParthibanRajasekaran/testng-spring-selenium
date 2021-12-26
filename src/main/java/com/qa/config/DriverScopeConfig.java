@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.core;
+package com.qa.config;
 
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.context.annotation.Bean;

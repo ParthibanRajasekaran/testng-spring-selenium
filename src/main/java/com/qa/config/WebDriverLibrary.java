@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.core;
+package com.qa.config;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

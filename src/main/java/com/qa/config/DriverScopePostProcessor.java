@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.core;
+package com.qa.config;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;

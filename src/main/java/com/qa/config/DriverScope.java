@@ -1,4 +1,4 @@
-package com.ea.SpringBasic.core;
+package com.qa.config;
 
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.support.SimpleThreadScope;

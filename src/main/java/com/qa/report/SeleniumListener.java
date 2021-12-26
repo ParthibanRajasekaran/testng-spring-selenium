@@ -1,9 +1,8 @@
-package com.ea.SpringBasic.report;
+package com.qa.report;
 
 
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
-import io.qameta.allure.testng.AllureTestNg;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.OutputType;
@@ -13,13 +12,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
 import org.testng.ITestContext;
+import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 @Lazy
 @Configuration
 @Slf4j
-public class SeleniumListener extends AllureTestNg {
-//public class SeleniumListener extends AllureTestListener {
+//public class SeleniumListener extends AllureTestNg {
+public class SeleniumListener implements ITestListener {
 
   @Autowired
   protected WebDriver driver;

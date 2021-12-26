@@ -1,6 +1,6 @@
-package com.ea.SpringBasic;
+package com.qa.common;
 
-import com.ea.SpringBasic.report.SeleniumListener;
+import com.qa.report.SeleniumListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
