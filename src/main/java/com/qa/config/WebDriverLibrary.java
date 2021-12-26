@@ -1,5 +1,7 @@
 package com.qa.config;
 
+import com.qa.annotation.LazyConfiguration;
+import com.qa.annotation.ThreadSafeBrowser;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,26 +11,22 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 import org.springframework.context.annotation.Scope;
 
-@Configuration
+@LazyConfiguration
 @Profile("!remote")
 public class WebDriverLibrary {
 
-  @Bean
-//  @ConditionalOnProperty(name = "browser", havingValue = "chrome")
+  @ThreadSafeBrowser
   @ConditionalOnMissingBean
-  @Scope("driverscope")
   public WebDriver getChromeDriver(){
     WebDriverManager.chromedriver().setup();
     return new ChromeDriver();
   }
 
-  @Bean
+  @ThreadSafeBrowser
   @ConditionalOnProperty(name = "browser", havingValue = "firefox")
-  @Scope("driverscope")
   public WebDriver getFirefoxDriver(){
     WebDriverManager.firefoxdriver().setup();
     return new FirefoxDriver();

@@ -1,4 +1,4 @@
-package com.qa.report;
+package com.qa.utils;
 
 
 import io.qameta.allure.Attachment;

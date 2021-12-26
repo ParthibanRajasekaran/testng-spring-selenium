@@ -1,15 +1,11 @@
 package com.qa.pages;
 
+import com.qa.annotation.Page;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
 
-@Component
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-//@ConditionalOnProperty(name = "env", havingValue = "qa")
+@Page
 public class MainPage extends BasePage {
 
     private static Logger log = LogManager.getLogger(MainPage.class);
