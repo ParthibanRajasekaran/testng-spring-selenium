@@ -8,22 +8,24 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ea</groupId>
-	<artifactId>SpringBasic</artifactId>
+	<groupId>com.qa</groupId>
+	<artifactId>testng-spring-selenium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBasic</name>
-	<description>Demo project for Spring Boot</description>
+	<name>testng-spring-selenium</name>
+	<url>https://github.com/ParthibanRajasekaran/testng-spring-selenium</url>
+	<description>Demo Selenium project for Spring Boot</description>
 
 	<properties>
-		<java.version>14</java.version>
+		<java.version>11</java.version>
 		<aspectj.version>1.9.6</aspectj.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<property name="target.dir" value="${base.dir}/target"/>
 <!--		<selenium.version>3.141.59</selenium.version>-->
 		<selenium.version>4.1.1</selenium.version>
 		<webdrivermanager.version>5.0.2</webdrivermanager.version>
 		<testng.version>7.4.0</testng.version>
 		<lombok.version>1.18.22</lombok.version>
-		<aspectj.version>1.9.6</aspectj.version>
-		<allure-testng-version>2.17.2</allure-testng-version>
+		<allure-testng-version>2.16.0</allure-testng-version>
 		<log4j-version>2.17.0</log4j-version>
 		<suiteFile/>
 	</properties>
@@ -75,12 +77,12 @@
 			<artifactId>allure-testng</artifactId>
 			<version>${allure-testng-version}</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>${log4j-version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
@@ -88,16 +90,51 @@
 			<scope>test</scope>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>${lombok.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-site-plugin</artifactId>
+			<version>3.9.1</version>
+			<type>maven-plugin</type>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<!--  exclude because it introduces a transient dependency upon log4j 1.12.2 -->
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+				<exclusion>
+					<!-- exclude because doxia has a direct dependency on a newer version and
+          otherwise whitesource gets upset -->
+					<groupId>commons-collections</groupId>
+					<artifactId>commons-collections</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.codehaus.plexus</groupId>
+					<artifactId>plexus-utils</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.httpcomponents</groupId>
+					<artifactId>httpclient</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -108,23 +145,31 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
 			</plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
+<!--				<version>3.0.0-M5</version>-->
 
 				<configuration>
-<!--					<includes>-->
-<!--						<include>com.ea.SpringBasic.SpringTestNGTest</include>-->
-<!--					</includes>-->
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/java/com/ea/SpringBasic/${suiteFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				<argLine>
 					-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 				</argLine>
+				<systemProperties>
+					<property>
+						<name>allure.results.directory</name>
+						<value>${basedir}/target/allure-results</value>
+					</property>
+				</systemProperties>
 				<!--<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
 			</configuration>
 			<dependencies>
@@ -138,14 +183,18 @@
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-site-plugin</artifactId>
-				<version>3.7.1</version>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>3.0.0</version>
 			</plugin>
 
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<version>3.0.0</version>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-maven</artifactId>
+				<version>2.10.0</version>
+				<configuration>
+					<resultsDirectory>${basedir}/target/allure-results</resultsDirectory>
+					<reportDirectory>${basedir}/target/allure-reports</reportDirectory>
+				</configuration>
 			</plugin>
 
 		</plugins>
@@ -155,12 +204,9 @@
 		<excludeDefaults>true</excludeDefaults>
 		<plugins>
 			<plugin>
-				<groupId>io.qameta.allure</groupId>
-				<artifactId>allure-maven</artifactId>
-				<version>2.10.0</version>
-				<configuration>
-				<reportVersion>2.10.0</reportVersion>
-				</configuration>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jxr-plugin</artifactId>
+				<version>3.0.0</version>
 			</plugin>
 		</plugins>
 	</reporting>
