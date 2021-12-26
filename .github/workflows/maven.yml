@@ -5,11 +5,11 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
-    - cron: "30 2 * * *"
+    - cron: "30 5 * * *"
 
 jobs:
   regression:
@@ -27,7 +27,7 @@ jobs:
         run: docker-compose up -d
 
       - name: Build with Maven
-        run: mvn -B clean test site -DsuiteFile=web_regression.xml -Dwdm.gitHubTokenName=${{ secrets.WEBDRIVER_GITHUB_TOKEN_NAME }} -Dwdm.gitHubTokenSecret=${{ secrets.WEBDRIVER_GITHUB_TOKEN_SECRET }} --file pom.xml -DremoteExecution=true
+        run: mvn -B clean test site -DsuiteFile=testng-suite.xml -Dwdm.gitHubTokenName=${{ secrets.WEBDRIVER_GITHUB_TOKEN_NAME }} -Dwdm.gitHubTokenSecret=${{ secrets.WEBDRIVER_GITHUB_TOKEN_SECRET }} --file pom.xml -DremoteExecution=true --settings settings.xml
         #
         #    - name: Allure report generation
         #      run: mvn allure:report
