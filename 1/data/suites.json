@@ -1,0 +1,103 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "spring-boot",
+    "children" : [ {
+      "name" : "test-2",
+      "children" : [ {
+        "name" : "com.ea.SpringBasic.SpringTestNGTestNew",
+        "children" : [ {
+          "name" : "springTestContextPrepareTestInstance",
+          "uid" : "f4f6d01932754bef",
+          "parentUid" : "5feb219e6d74d195ccf08aa19511b000",
+          "status" : "broken",
+          "time" : {
+            "start" : 1640538482059,
+            "stop" : 1640538482060,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "This is a new testng test is to validate login",
+          "uid" : "7bfbd8cb44393373",
+          "parentUid" : "5feb219e6d74d195ccf08aa19511b000",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1640538482081,
+            "stop" : 1640538482091,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "tearDownBrowser",
+          "uid" : "e4eb3f539ca76938",
+          "parentUid" : "5feb219e6d74d195ccf08aa19511b000",
+          "status" : "broken",
+          "time" : {
+            "start" : 1640538482110,
+            "stop" : 1640538482110,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5feb219e6d74d195ccf08aa19511b000"
+      } ],
+      "uid" : "f6d80cae68419bd57f86752acb1cc68a"
+    }, {
+      "name" : "test-3",
+      "children" : [ {
+        "name" : "com.ea.SpringBasic.SpringTestNGTest",
+        "children" : [ {
+          "name" : "springTestContextPrepareTestInstance",
+          "uid" : "d531493d6151cc56",
+          "parentUid" : "7eddc26bd006f7377843ffc597968b0a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1640538483364,
+            "stop" : 1640538483364,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "This testng test is to validate login",
+          "uid" : "5ab767daf42c1f93",
+          "parentUid" : "7eddc26bd006f7377843ffc597968b0a",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1640538483372,
+            "stop" : 1640538483374,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "tearDownBrowser",
+          "uid" : "ea6b0e1d1bc1e084",
+          "parentUid" : "7eddc26bd006f7377843ffc597968b0a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1640538483384,
+            "stop" : 1640538483384,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7eddc26bd006f7377843ffc597968b0a"
+      } ],
+      "uid" : "6d93db17914d0dc83660dd5058888e39"
+    } ],
+    "uid" : "aa5f3aa99f92f203e374730be3f423c7"
+  } ],
+  "name" : "suites"
+}

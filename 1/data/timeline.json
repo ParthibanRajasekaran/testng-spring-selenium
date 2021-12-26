@@ -1,0 +1,216 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az121-657",
+    "children" : [ {
+      "name" : "3738@fv-az121-657.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "tearDownBrowser",
+        "uid" : "b86b3347192071ff",
+        "parentUid" : "2298b0a9a44a3748e89492248af535a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482721,
+          "stop" : 1640538482721,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This testng test is to validate login",
+        "uid" : "45dcb2ce4d8c886a",
+        "parentUid" : "2298b0a9a44a3748e89492248af535a0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1640538482702,
+          "stop" : 1640538482704,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDownBrowser",
+        "uid" : "a4a6eadba072e43e",
+        "parentUid" : "2298b0a9a44a3748e89492248af535a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482724,
+          "stop" : 1640538482724,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "d252bb910ffc46df",
+        "parentUid" : "2298b0a9a44a3748e89492248af535a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482666,
+          "stop" : 1640538482666,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "28e48aa155d1dcfd",
+        "parentUid" : "2298b0a9a44a3748e89492248af535a0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482691,
+          "stop" : 1640538482691,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2298b0a9a44a3748e89492248af535a0"
+    }, {
+      "name" : "3738@fv-az121-657.TestNG-tests-3(17)",
+      "children" : [ {
+        "name" : "tearDownBrowser",
+        "uid" : "793afcd729feff9e",
+        "parentUid" : "74fd41ed8535a2501060a09088501d58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538483383,
+          "stop" : 1640538483383,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDownBrowser",
+        "uid" : "ea6b0e1d1bc1e084",
+        "parentUid" : "74fd41ed8535a2501060a09088501d58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538483384,
+          "stop" : 1640538483384,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "d531493d6151cc56",
+        "parentUid" : "74fd41ed8535a2501060a09088501d58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538483364,
+          "stop" : 1640538483364,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This testng test is to validate login",
+        "uid" : "5ab767daf42c1f93",
+        "parentUid" : "74fd41ed8535a2501060a09088501d58",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1640538483372,
+          "stop" : 1640538483374,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "a90f8ca3783d8433",
+        "parentUid" : "74fd41ed8535a2501060a09088501d58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538483362,
+          "stop" : 1640538483362,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74fd41ed8535a2501060a09088501d58"
+    }, {
+      "name" : "3738@fv-az121-657.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "f4f6d01932754bef",
+        "parentUid" : "e0e8935edbfb397fe4f9d5ba4f0eec96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482059,
+          "stop" : 1640538482060,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDownBrowser",
+        "uid" : "d35e4a200138c889",
+        "parentUid" : "e0e8935edbfb397fe4f9d5ba4f0eec96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482103,
+          "stop" : 1640538482103,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "This is a new testng test is to validate login",
+        "uid" : "7bfbd8cb44393373",
+        "parentUid" : "e0e8935edbfb397fe4f9d5ba4f0eec96",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1640538482081,
+          "stop" : 1640538482091,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "48a46061f0630843",
+        "parentUid" : "e0e8935edbfb397fe4f9d5ba4f0eec96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482029,
+          "stop" : 1640538482039,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDownBrowser",
+        "uid" : "e4eb3f539ca76938",
+        "parentUid" : "e0e8935edbfb397fe4f9d5ba4f0eec96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482110,
+          "stop" : 1640538482110,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0e8935edbfb397fe4f9d5ba4f0eec96"
+    } ],
+    "uid" : "d5fd48e0b57a2d06eb04a859d8bb00b0"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "5ab767daf42c1f93",
+  "name" : "This testng test is to validate login",
+  "time" : {
+    "start" : 1640538483372,
+    "stop" : 1640538483374,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d531493d6151cc56",
+  "name" : "springTestContextPrepareTestInstance",
+  "time" : {
+    "start" : 1640538483364,
+    "stop" : 1640538483364,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4f6d01932754bef",
+  "name" : "springTestContextPrepareTestInstance",
+  "time" : {
+    "start" : 1640538482059,
+    "stop" : 1640538482060,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7bfbd8cb44393373",
+  "name" : "This is a new testng test is to validate login",
+  "time" : {
+    "start" : 1640538482081,
+    "stop" : 1640538482091,
+    "duration" : 10
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e4eb3f539ca76938",
+  "name" : "tearDownBrowser",
+  "time" : {
+    "start" : 1640538482110,
+    "stop" : 1640538482110,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea6b0e1d1bc1e084",
+  "name" : "tearDownBrowser",
+  "time" : {
+    "start" : 1640538483384,
+    "stop" : 1640538483384,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

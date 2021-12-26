@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Failed to load ApplicationContext",
+      "children" : [ {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "f4f6d01932754bef",
+        "parentUid" : "1bbe147fca36e65ab39a243a75635d24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482059,
+          "stop" : 1640538482060,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "springTestContextPrepareTestInstance",
+        "uid" : "d531493d6151cc56",
+        "parentUid" : "1bbe147fca36e65ab39a243a75635d24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538483364,
+          "stop" : 1640538483364,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bbe147fca36e65ab39a243a75635d24"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "tearDownBrowser",
+        "uid" : "e4eb3f539ca76938",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538482110,
+          "stop" : 1640538482110,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tearDownBrowser",
+        "uid" : "ea6b0e1d1bc1e084",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640538483384,
+          "stop" : 1640538483384,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
