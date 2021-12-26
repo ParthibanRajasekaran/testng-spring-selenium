@@ -1,0 +1,62 @@
+# This workflow will build a Java project with Maven
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: "30 2 * * *"
+
+jobs:
+  regression:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 11
+        uses: joschi/setup-jdk@v2
+        with:
+          java-version: '11'
+
+      - name: Setup selenium Grid
+        run: docker-compose up -d
+
+      - name: Build with Maven
+        run: mvn -B clean test site -DsuiteFile=web_regression.xml -Dwdm.gitHubTokenName=${{ secrets.WEBDRIVER_GITHUB_TOKEN_NAME }} -Dwdm.gitHubTokenSecret=${{ secrets.WEBDRIVER_GITHUB_TOKEN_SECRET }} --file pom.xml -DremoteExecution=true
+        #
+        #    - name: Allure report generation
+        #      run: mvn allure:report
+
+      - name: Cleanup selenium Grid
+        run: docker-compose down
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        #id: allure-report
+        with:
+          allure_results: target/allure-results
+          #gh_pages: gh-pages
+          #allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history

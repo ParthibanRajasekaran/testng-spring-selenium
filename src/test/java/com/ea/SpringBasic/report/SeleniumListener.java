@@ -3,26 +3,26 @@ package com.ea.SpringBasic.report;
 
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
+import io.qameta.allure.testng.AllureTestNg;
 import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 import org.testng.ITestContext;
-import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+@Lazy
 @Configuration
-public class SeleniumListener implements ITestListener {
+@Slf4j
+public class SeleniumListener extends AllureTestNg {
 //public class SeleniumListener extends AllureTestListener {
 
   @Autowired
   protected WebDriver driver;
-
-  private static final Logger log = LoggerFactory.getLogger(SeleniumListener.class);
 
   @Override
   public void onStart(ITestContext arg0) {

@@ -1,6 +1,8 @@
 package com.ea.SpringBasic.pages;
 
 import io.qameta.allure.Step;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -11,6 +13,8 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class LoginPage extends BasePage {
+
+    private static Logger log = LogManager.getLogger(LoginPage.class);
 
     @FindBy(how = How.NAME, using = "UserName")
     public WebElement txtUserName;
@@ -24,13 +28,13 @@ public class LoginPage extends BasePage {
     {
         txtUserName.sendKeys(userName);
         txtPassword.sendKeys(password);
-        System.out.println("UserName and password: " + userName + "---" + password);
+        log.debug("UserName and password: " + userName + "---" + password);
     }
 
     @Step("Click on the Login button in the home page")
     public HomePage clickLogin() {
         btnLogin.click();
-        System.out.println("Click login from login page");
+        log.debug("Click login from login page");
         return new HomePage();
     }
 

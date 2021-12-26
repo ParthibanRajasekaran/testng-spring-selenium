@@ -1,9 +1,9 @@
 package com.ea.SpringBasic;
 
 import com.ea.SpringBasic.report.SeleniumListener;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.AfterMethod;
@@ -11,9 +11,10 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 
+@Listeners({SeleniumListener.class})
 public class BaseTest extends AbstractTestNGSpringContextTests {
 
-  private static final Logger log = LoggerFactory.getLogger(BaseTest.class);
+  private static Logger log = LogManager.getLogger(BaseTest.class);
 
   @Autowired
   private WebDriver driver;

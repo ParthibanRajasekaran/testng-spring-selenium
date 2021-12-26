@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="spring-boot" parallel="tests" verbose="10">
 
-  <listeners>
-    <listener class-name="com.ea.SpringBasic.report.SeleniumListener"/>
-  </listeners>
+<!--  <listeners>-->
+<!--    <listener class-name="com.ea.SpringBasic.report.SeleniumListener"/>-->
+<!--  </listeners>-->
 
   <test name="test-1">
     <classes>
