@@ -1,10 +1,12 @@
 package com.qa.common;
 
+import com.qa.annotation.LazyAutowired;
 import com.qa.utils.SeleniumListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.AfterMethod;
@@ -16,10 +18,13 @@ import org.testng.annotations.Listeners;
 @SpringBootTest
 public class BaseTest extends AbstractTestNGSpringContextTests {
 
-  private static Logger log = LogManager.getLogger(BaseTest.class);
+  private static final Logger log = LogManager.getLogger(BaseTest.class);
 
-  @Autowired
+  @LazyAutowired
   private WebDriver driver;
+
+  @Value("${host.url}")
+  public String hostUrl;
 
 //  @BeforeSuite(alwaysRun = true)
   @BeforeMethod(alwaysRun = true)

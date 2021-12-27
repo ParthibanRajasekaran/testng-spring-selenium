@@ -5,15 +5,17 @@
 <!--    <listener class-name="SeleniumListener"/>-->
 <!--  </listeners>-->
 
-  <test name="test-1">
-    <classes>
-      <class name="com.qa.feature.SpringTestNGTest" />
-    </classes>
-  </test>
+<!--  <test name="test-1">-->
+<!--    <classes>-->
+<!--      <class name="com.qa.feature.SpringTestNGTest" />-->
+<!--    </classes>-->
+<!--  </test>-->
 
-  <test name="test-2">
+  <test name="test">
     <classes>
-      <class name="com.qa.feature.SpringTestNGTestNew" />
+      <class name="com.qa.feature.BasicAuthTest" />
+      <class name="com.qa.feature.CheckBoxTest" />
+      <class name="com.qa.feature.KeyPressTest" />
     </classes>
   </test>
 

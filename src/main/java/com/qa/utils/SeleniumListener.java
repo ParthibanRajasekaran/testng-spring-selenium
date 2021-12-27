@@ -1,6 +1,8 @@
 package com.qa.utils;
 
 
+import com.qa.annotation.LazyAutowired;
+import com.qa.annotation.LazyConfiguration;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import lombok.SneakyThrows;
@@ -8,21 +10,17 @@ import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-@Lazy
-@Configuration
+@LazyConfiguration
 @Slf4j
 //public class SeleniumListener extends AllureTestNg {
 public class SeleniumListener implements ITestListener {
 
-  @Autowired
-  protected WebDriver driver;
+  @LazyAutowired
+  private WebDriver driver;
 
   @Override
   public void onStart(ITestContext arg0) {
@@ -44,22 +42,23 @@ public class SeleniumListener implements ITestListener {
   public void onTestFailure(ITestResult tr) {
     log.error(tr.getName() + " --- FAILED --- ");
 
-    // saveTextLog(tr.getName());
-    log.info(String.format("%s failed and screenshot taken", tr.getName()));
     saveScreenshotPNG();
+    log.debug("{} failed and screenshot taken", tr.getName());
 
     Throwable ex = tr.getThrowable();
     if (ex != null) {
       String cause = ex.toString();
       log.error(cause + "\n");
     }
+
+    driver.close();
   }
 
   @SneakyThrows
   @Attachment(value = "page screenshot", type = "image/png")
   public byte[] saveScreenshotPNG() {
     log.debug("Taking screenshot");
-    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    return ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.BYTES);
   }
 
   @Override

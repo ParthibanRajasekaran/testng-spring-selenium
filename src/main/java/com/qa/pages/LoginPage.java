@@ -15,7 +15,7 @@ public class LoginPage extends BasePage {
 
     @FindBy(how = How.NAME, using = "UserName")
     public WebElement txtUserName;
-    @FindBy(how = How.NAME, using = "Password")
+    @FindBy(how = How.NAME, using = "Passwor")
     public WebElement txtPassword;
     @FindBy(how = How.CSS, using = ".btn-default")
     public WebElement btnLogin;
