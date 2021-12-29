@@ -1,0 +1,301 @@
+{
+  "uid" : "af3e36c37bad7b7e",
+  "name" : "This testng test is to validate login",
+  "fullName" : "com.qa.feature.SpringTestNGTest.testLogin",
+  "historyId" : "2239d9af37e754f5190139b62a4c2141",
+  "time" : {
+    "start" : 1640756507244,
+    "stop" : 1640756508879,
+    "duration" : 1635
+  },
+  "description" : "This testng test is to validate login",
+  "descriptionHtml" : "<p>This testng test is to validate login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1640756500667,
+      "stop" : 1640756500703,
+      "duration" : 36
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1640756500730,
+      "stop" : 1640756500741,
+      "duration" : 11
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1640756500909,
+      "stop" : 1640756506226,
+      "duration" : 5317
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupWebDriver",
+    "time" : {
+      "start" : 1640756506226,
+      "stop" : 1640756507209,
+      "duration" : 983
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This testng test is to validate login",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on the Login button",
+      "time" : {
+        "start" : 1640756507375,
+        "stop" : 1640756508065,
+        "duration" : 690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Enter the Login credentials for username: {}",
+      "time" : {
+        "start" : 1640756508066,
+        "stop" : 1640756508364,
+        "duration" : 298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "admin"
+      }, {
+        "name" : "password",
+        "value" : "adminpassword23432"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the Login button in the home page",
+      "time" : {
+        "start" : 1640756508364,
+        "stop" : 1640756508879,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1640756509010,
+      "stop" : 1640756509010,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDownBrowser",
+    "time" : {
+      "start" : 1640756508881,
+      "stop" : 1640756509005,
+      "duration" : 124
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1640756509006,
+      "stop" : 1640756509009,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDownAllBrowserSessions",
+    "time" : {
+      "start" : 1640756509018,
+      "stop" : 1640756509019,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.feature.SpringTestNGTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.feature.SpringTestNGTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "spring-boot"
+  }, {
+    "name" : "suite",
+    "value" : "test-1"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.feature.SpringTestNGTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-408"
+  }, {
+    "name" : "thread",
+    "value" : "3725@fv-az82-408.TestNG-tests-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Smoke Story"
+  }, {
+    "name" : "epic",
+    "value" : "Smoke Epic"
+  }, {
+    "name" : "feature",
+    "value" : "Smoke Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "76e7048badb5f8ac",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/6//#testresult/76e7048badb5f8ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640670075244,
+          "stop" : 1640670076743,
+          "duration" : 1499
+        }
+      }, {
+        "uid" : "ea640ee96e6c52a8",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/4//#testresult/ea640ee96e6c52a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640550374758,
+          "stop" : 1640550376390,
+          "duration" : 1632
+        }
+      }, {
+        "uid" : "e5fad832a04b017e",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/3//#testresult/e5fad832a04b017e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640543882860,
+          "stop" : 1640543884534,
+          "duration" : 1674
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "af3e36c37bad7b7e.json",
+  "parameterValues" : [ ]
+}
