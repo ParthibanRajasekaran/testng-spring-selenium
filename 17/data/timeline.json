@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az121-657",
+    "children" : [ {
+      "name" : "3699@fv-az121-657.TestNG-tests-1(15)",
+      "children" : [ {
+        "name" : "This testng test is to validate login",
+        "uid" : "d79a1a7103e2d235",
+        "parentUid" : "fc5903aa76f16d92d83be34a611d8473",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641620522149,
+          "stop" : 1641620523435,
+          "duration" : 1286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc5903aa76f16d92d83be34a611d8473"
+    }, {
+      "name" : "3699@fv-az121-657.TestNG-tests-2(16)",
+      "children" : [ {
+        "name" : "This is a new testng test is to validate login",
+        "uid" : "464d2e6337f3deed",
+        "parentUid" : "55211647b5e1e2ed12b0441ffdfd0649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641620521993,
+          "stop" : 1641620523286,
+          "duration" : 1293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55211647b5e1e2ed12b0441ffdfd0649"
+    } ],
+    "uid" : "d5fd48e0b57a2d06eb04a859d8bb00b0"
+  } ],
+  "name" : "timeline"
+}
