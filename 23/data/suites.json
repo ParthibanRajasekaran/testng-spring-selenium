@@ -5,43 +5,43 @@
     "children" : [ {
       "name" : "test-2",
       "children" : [ {
-        "name" : "com.ea.SpringBasic.SpringTestNGTestNew",
+        "name" : "com.qa.feature.SpringTestNGTestNew",
         "children" : [ {
           "name" : "This is a new testng test is to validate login",
-          "uid" : "b250d34171145d8e",
-          "parentUid" : "5feb219e6d74d195ccf08aa19511b000",
+          "uid" : "532ee73cbef8462f",
+          "parentUid" : "9e5554fddc70b2d9c24874af61d49db7",
           "status" : "passed",
           "time" : {
-            "start" : 1640538730237,
-            "stop" : 1640538731873,
-            "duration" : 1636
+            "start" : 1642138950236,
+            "stop" : 1642138951908,
+            "duration" : 1672
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "5feb219e6d74d195ccf08aa19511b000"
+        "uid" : "9e5554fddc70b2d9c24874af61d49db7"
       } ],
       "uid" : "f6d80cae68419bd57f86752acb1cc68a"
     }, {
       "name" : "test-1",
       "children" : [ {
-        "name" : "com.ea.SpringBasic.SpringTestNGTest",
+        "name" : "com.qa.feature.SpringTestNGTest",
         "children" : [ {
           "name" : "This testng test is to validate login",
-          "uid" : "445dd21de67c8edd",
-          "parentUid" : "1c55320355eb65099f5a824721697d44",
+          "uid" : "fc8898e8f9039697",
+          "parentUid" : "52342beb385f8bd47dc4a15220ab94c4",
           "status" : "passed",
           "time" : {
-            "start" : 1640538731590,
-            "stop" : 1640538732975,
-            "duration" : 1385
+            "start" : 1642138950344,
+            "stop" : 1642138951758,
+            "duration" : 1414
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "1c55320355eb65099f5a824721697d44"
+        "uid" : "52342beb385f8bd47dc4a15220ab94c4"
       } ],
       "uid" : "e9e27e1a5185b70e9596f408321c6136"
     } ],
