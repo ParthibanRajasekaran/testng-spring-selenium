@@ -8,13 +8,13 @@
         "name" : "com.qa.feature.SpringTestNGTest",
         "children" : [ {
           "name" : "This testng test is to validate login",
-          "uid" : "a5945cac12cd4573",
+          "uid" : "d8c07fde6961069c",
           "parentUid" : "52342beb385f8bd47dc4a15220ab94c4",
           "status" : "passed",
           "time" : {
-            "start" : 1642829962056,
-            "stop" : 1642829963682,
-            "duration" : 1626
+            "start" : 1644557941413,
+            "stop" : 1644557942694,
+            "duration" : 1281
           },
           "flaky" : false,
           "newFailed" : false,
@@ -29,13 +29,13 @@
         "name" : "com.qa.feature.SpringTestNGTestNew",
         "children" : [ {
           "name" : "This is a new testng test is to validate login",
-          "uid" : "1c6fc9c58bced28e",
+          "uid" : "223e5084b37505d6",
           "parentUid" : "9e5554fddc70b2d9c24874af61d49db7",
           "status" : "passed",
           "time" : {
-            "start" : 1642829962059,
-            "stop" : 1642829963823,
-            "duration" : 1764
+            "start" : 1644557941428,
+            "stop" : 1644557942691,
+            "duration" : 1263
           },
           "flaky" : false,
           "newFailed" : false,
