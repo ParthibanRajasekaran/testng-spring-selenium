@@ -1,0 +1,21 @@
+[ {
+  "uid" : "671f760d47005ad0",
+  "name" : "This testng test is to validate login",
+  "time" : {
+    "start" : 1646717951070,
+    "stop" : 1646717952632,
+    "duration" : 1562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18bbb453be701876",
+  "name" : "This is a new testng test is to validate login",
+  "time" : {
+    "start" : 1646717951074,
+    "stop" : 1646717952742,
+    "duration" : 1668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
