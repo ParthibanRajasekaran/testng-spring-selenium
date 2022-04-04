@@ -3,39 +3,39 @@
   "children" : [ {
     "name" : "com.qa.feature",
     "children" : [ {
-      "name" : "SpringTestNGTestNew",
-      "children" : [ {
-        "name" : "testLogin",
-        "uid" : "2ee2c350757373cb",
-        "parentUid" : "b3015d5fbcd6b084d9c13bfef5b90315",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647322784213,
-          "stop" : 1647322786058,
-          "duration" : 1845
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b3015d5fbcd6b084d9c13bfef5b90315"
-    }, {
       "name" : "SpringTestNGTest",
       "children" : [ {
         "name" : "testLogin",
-        "uid" : "109b535295673000",
+        "uid" : "c79ebc209555f619",
         "parentUid" : "da8883375ec9eec5f777389dc221c472",
         "status" : "passed",
         "time" : {
-          "start" : 1647322784374,
-          "stop" : 1647322785894,
-          "duration" : 1520
+          "start" : 1649050805321,
+          "stop" : 1649050806649,
+          "duration" : 1328
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "da8883375ec9eec5f777389dc221c472"
+    }, {
+      "name" : "SpringTestNGTestNew",
+      "children" : [ {
+        "name" : "testLogin",
+        "uid" : "89a86daeab8a30fc",
+        "parentUid" : "b3015d5fbcd6b084d9c13bfef5b90315",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649050805364,
+          "stop" : 1649050806815,
+          "duration" : 1451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3015d5fbcd6b084d9c13bfef5b90315"
     } ],
     "uid" : "com.qa.feature"
   } ],
