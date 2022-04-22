@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium",
+  "buildOrder" : 121,
+  "buildName" : "GitHub Actions Run #2205977609",
+  "buildUrl" : "https://github.com/ParthibanRajasekaran/testng-spring-selenium/actions/runs/2205977609",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/121/"
+} ]
