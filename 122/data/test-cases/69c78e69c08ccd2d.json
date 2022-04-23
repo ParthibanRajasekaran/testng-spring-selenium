@@ -1,12 +1,12 @@
 {
-  "uid" : "e73788c52a1bd5d3",
+  "uid" : "69c78e69c08ccd2d",
   "name" : "This testng test is to validate login",
   "fullName" : "com.qa.feature.SpringTestNGTest.testLogin",
   "historyId" : "2239d9af37e754f5190139b62a4c2141",
   "time" : {
-    "start" : 1648964391125,
-    "stop" : 1648964393317,
-    "duration" : 2192
+    "start" : 1650692449857,
+    "stop" : 1650692451644,
+    "duration" : 1787
   },
   "description" : "This testng test is to validate login",
   "descriptionHtml" : "<p>This testng test is to validate login</p>\n",
@@ -14,11 +14,11 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setupWebDriver",
+    "name" : "springTestContextPrepareTestInstance",
     "time" : {
-      "start" : 1648964375768,
-      "stop" : 1648964391121,
-      "duration" : 15353
+      "start" : 1650692425429,
+      "stop" : 1650692430337,
+      "duration" : 4908
     },
     "description" : "",
     "status" : "passed",
@@ -30,11 +30,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "springTestContextBeforeTestMethod",
+    "name" : "setupWebDriver",
     "time" : {
-      "start" : 1648964370372,
-      "stop" : 1648964370379,
-      "duration" : 7
+      "start" : 1650692430338,
+      "stop" : 1650692449853,
+      "duration" : 19515
     },
     "description" : "",
     "status" : "passed",
@@ -48,9 +48,9 @@
   }, {
     "name" : "springTestContextBeforeTestClass",
     "time" : {
-      "start" : 1648964370330,
-      "stop" : 1648964370347,
-      "duration" : 17
+      "start" : 1650692425237,
+      "stop" : 1650692425256,
+      "duration" : 19
     },
     "description" : "",
     "status" : "passed",
@@ -62,11 +62,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "springTestContextPrepareTestInstance",
+    "name" : "springTestContextBeforeTestMethod",
     "time" : {
-      "start" : 1648964370512,
-      "stop" : 1648964375767,
-      "duration" : 5255
+      "start" : 1650692425293,
+      "stop" : 1650692425300,
+      "duration" : 7
     },
     "description" : "",
     "status" : "passed",
@@ -84,9 +84,9 @@
     "steps" : [ {
       "name" : "Click on the Login button",
       "time" : {
-        "start" : 1648964391135,
-        "stop" : 1648964392021,
-        "duration" : 886
+        "start" : 1650692449857,
+        "stop" : 1650692450536,
+        "duration" : 679
       },
       "status" : "passed",
       "steps" : [ ],
@@ -99,9 +99,9 @@
     }, {
       "name" : "Enter the Login credentials for username: {}",
       "time" : {
-        "start" : 1648964392026,
-        "stop" : 1648964392443,
-        "duration" : 417
+        "start" : 1650692450539,
+        "stop" : 1650692450797,
+        "duration" : 258
       },
       "status" : "passed",
       "steps" : [ ],
@@ -120,9 +120,9 @@
     }, {
       "name" : "Click on the Login button in the home page",
       "time" : {
-        "start" : 1648964392443,
-        "stop" : 1648964393317,
-        "duration" : 874
+        "start" : 1650692450797,
+        "stop" : 1650692451638,
+        "duration" : 841
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
   "afterStages" : [ {
     "name" : "tearDownBrowser",
     "time" : {
-      "start" : 1648964393334,
-      "stop" : 1648964393400,
-      "duration" : 66
+      "start" : 1650692451663,
+      "stop" : 1650692451737,
+      "duration" : 74
     },
     "description" : "",
     "status" : "passed",
@@ -159,9 +159,9 @@
   }, {
     "name" : "springTestContextAfterTestClass",
     "time" : {
-      "start" : 1648964393407,
-      "stop" : 1648964393414,
-      "duration" : 7
+      "start" : 1650692451742,
+      "stop" : 1650692451743,
+      "duration" : 1
     },
     "description" : "",
     "status" : "passed",
@@ -175,9 +175,9 @@
   }, {
     "name" : "springTestContextAfterTestMethod",
     "time" : {
-      "start" : 1648964393401,
-      "stop" : 1648964393405,
-      "duration" : 4
+      "start" : 1650692451738,
+      "stop" : 1650692451740,
+      "duration" : 2
     },
     "description" : "",
     "status" : "passed",
@@ -191,8 +191,8 @@
   }, {
     "name" : "tearDownAllBrowserSessions",
     "time" : {
-      "start" : 1648964393476,
-      "stop" : 1648964393476,
+      "start" : 1650692451855,
+      "stop" : 1650692451855,
       "duration" : 0
     },
     "description" : "",
@@ -225,10 +225,10 @@
     "value" : "com.qa.feature.SpringTestNGTest"
   }, {
     "name" : "host",
-    "value" : "fv-az47-788"
+    "value" : "fv-az47-195"
   }, {
     "name" : "thread",
-    "value" : "3362@fv-az47-788.TestNG-tests-1(15)"
+    "value" : "3347@fv-az47-195.TestNG-tests-1(15)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -261,194 +261,194 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 94,
+        "passed" : 114,
         "unknown" : 0,
-        "total" : 94
+        "total" : 114
       },
       "items" : [ {
-        "uid" : "f2406d25c6e62277",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/101//#testresult/f2406d25c6e62277",
+        "uid" : "4b7174c97901e682",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/121//#testresult/4b7174c97901e682",
         "status" : "passed",
         "time" : {
-          "start" : 1648877988728,
-          "stop" : 1648877990230,
-          "duration" : 1502
+          "start" : 1650606945699,
+          "stop" : 1650606948086,
+          "duration" : 2387
         }
       }, {
-        "uid" : "394347c638b138cf",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/100//#testresult/394347c638b138cf",
+        "uid" : "965592b9948bd9ad",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/120//#testresult/965592b9948bd9ad",
         "status" : "passed",
         "time" : {
-          "start" : 1648791607873,
-          "stop" : 1648791609127,
-          "duration" : 1254
+          "start" : 1650520648128,
+          "stop" : 1650520651052,
+          "duration" : 2924
         }
       }, {
-        "uid" : "31d6eeb797d07d38",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/99//#testresult/31d6eeb797d07d38",
+        "uid" : "1cc7ef80a5c37612",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/119//#testresult/1cc7ef80a5c37612",
         "status" : "passed",
         "time" : {
-          "start" : 1648705230360,
-          "stop" : 1648705234092,
-          "duration" : 3732
+          "start" : 1650434107613,
+          "stop" : 1650434108696,
+          "duration" : 1083
         }
       }, {
-        "uid" : "afc1b96ac4d893f",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/98//#testresult/afc1b96ac4d893f",
+        "uid" : "4570afc84caa24fe",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/118//#testresult/4570afc84caa24fe",
         "status" : "passed",
         "time" : {
-          "start" : 1648618815749,
-          "stop" : 1648618817233,
-          "duration" : 1484
+          "start" : 1650347147946,
+          "stop" : 1650347149647,
+          "duration" : 1701
         }
       }, {
-        "uid" : "baf8b895a5271b0f",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/97//#testresult/baf8b895a5271b0f",
+        "uid" : "55d744dde048afe7",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/117//#testresult/55d744dde048afe7",
         "status" : "passed",
         "time" : {
-          "start" : 1648532411477,
-          "stop" : 1648532412871,
-          "duration" : 1394
+          "start" : 1650260473230,
+          "stop" : 1650260475659,
+          "duration" : 2429
         }
       }, {
-        "uid" : "463d89e550713719",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/96//#testresult/463d89e550713719",
+        "uid" : "7e3c79934f98a4e7",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/116//#testresult/7e3c79934f98a4e7",
         "status" : "passed",
         "time" : {
-          "start" : 1648446008294,
-          "stop" : 1648446011185,
-          "duration" : 2891
+          "start" : 1650174053226,
+          "stop" : 1650174055954,
+          "duration" : 2728
         }
       }, {
-        "uid" : "d150dfaa7e1ea06d",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/95//#testresult/d150dfaa7e1ea06d",
+        "uid" : "a82be6eb386df8eb",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/115//#testresult/a82be6eb386df8eb",
         "status" : "passed",
         "time" : {
-          "start" : 1648359560309,
-          "stop" : 1648359562334,
-          "duration" : 2025
+          "start" : 1650087620768,
+          "stop" : 1650087622284,
+          "duration" : 1516
         }
       }, {
-        "uid" : "2d9ad0e578790f68",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/94//#testresult/2d9ad0e578790f68",
+        "uid" : "ba007bb7db642d72",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/114//#testresult/ba007bb7db642d72",
         "status" : "passed",
         "time" : {
-          "start" : 1648273179738,
-          "stop" : 1648273183159,
-          "duration" : 3421
+          "start" : 1650001432059,
+          "stop" : 1650001434097,
+          "duration" : 2038
         }
       }, {
-        "uid" : "c9b82befd665b9e2",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/93//#testresult/c9b82befd665b9e2",
+        "uid" : "7fb57f3f42aa8f15",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/113//#testresult/7fb57f3f42aa8f15",
         "status" : "passed",
         "time" : {
-          "start" : 1648186781686,
-          "stop" : 1648186782955,
-          "duration" : 1269
+          "start" : 1649914843874,
+          "stop" : 1649914845234,
+          "duration" : 1360
         }
       }, {
-        "uid" : "2050f56b7ef1137f",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/92//#testresult/2050f56b7ef1137f",
+        "uid" : "ef1baa5e62fe6b",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/112//#testresult/ef1baa5e62fe6b",
         "status" : "passed",
         "time" : {
-          "start" : 1648100400505,
-          "stop" : 1648100403107,
-          "duration" : 2602
+          "start" : 1649828461427,
+          "stop" : 1649828462718,
+          "duration" : 1291
         }
       }, {
-        "uid" : "adac2148f04d4826",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/91//#testresult/adac2148f04d4826",
+        "uid" : "6cc11917b5845c04",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/111//#testresult/6cc11917b5845c04",
         "status" : "passed",
         "time" : {
-          "start" : 1648014012682,
-          "stop" : 1648014013763,
-          "duration" : 1081
+          "start" : 1649742025570,
+          "stop" : 1649742026731,
+          "duration" : 1161
         }
       }, {
-        "uid" : "7f17cb220e1d0dfd",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/90//#testresult/7f17cb220e1d0dfd",
+        "uid" : "e012ae5dd8bc92de",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/110//#testresult/e012ae5dd8bc92de",
         "status" : "passed",
         "time" : {
-          "start" : 1647927616224,
-          "stop" : 1647927617378,
-          "duration" : 1154
+          "start" : 1649655645695,
+          "stop" : 1649655647284,
+          "duration" : 1589
         }
       }, {
-        "uid" : "14dd9f541bd51f8f",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/89//#testresult/14dd9f541bd51f8f",
+        "uid" : "81580237fc0cc0af",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/109//#testresult/81580237fc0cc0af",
         "status" : "passed",
         "time" : {
-          "start" : 1647841160270,
-          "stop" : 1647841162345,
-          "duration" : 2075
+          "start" : 1649569200359,
+          "stop" : 1649569202126,
+          "duration" : 1767
         }
       }, {
-        "uid" : "782b26bdcb76f4bd",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/88//#testresult/782b26bdcb76f4bd",
+        "uid" : "b8e59da4959d861e",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/108//#testresult/b8e59da4959d861e",
         "status" : "passed",
         "time" : {
-          "start" : 1647754767008,
-          "stop" : 1647754769125,
-          "duration" : 2117
+          "start" : 1649482800267,
+          "stop" : 1649482801788,
+          "duration" : 1521
         }
       }, {
-        "uid" : "307d4ccc81cf2b62",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/87//#testresult/307d4ccc81cf2b62",
+        "uid" : "47c0facda20accf9",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/107//#testresult/47c0facda20accf9",
         "status" : "passed",
         "time" : {
-          "start" : 1647668373022,
-          "stop" : 1647668375652,
-          "duration" : 2630
+          "start" : 1649396412967,
+          "stop" : 1649396414275,
+          "duration" : 1308
         }
       }, {
-        "uid" : "36b2afc50a38edf5",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/86//#testresult/36b2afc50a38edf5",
+        "uid" : "514005bfd8a0aa85",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/106//#testresult/514005bfd8a0aa85",
         "status" : "passed",
         "time" : {
-          "start" : 1647581952562,
-          "stop" : 1647581953822,
-          "duration" : 1260
+          "start" : 1649310033481,
+          "stop" : 1649310035703,
+          "duration" : 2222
         }
       }, {
-        "uid" : "a4821ac2af907173",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/85//#testresult/a4821ac2af907173",
+        "uid" : "e85836133b0670c6",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/105//#testresult/e85836133b0670c6",
         "status" : "passed",
         "time" : {
-          "start" : 1647495549475,
-          "stop" : 1647495550668,
-          "duration" : 1193
+          "start" : 1649223615485,
+          "stop" : 1649223616522,
+          "duration" : 1037
         }
       }, {
-        "uid" : "279e44de22e72f06",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/84//#testresult/279e44de22e72f06",
+        "uid" : "6220ae9532edf933",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/104//#testresult/6220ae9532edf933",
         "status" : "passed",
         "time" : {
-          "start" : 1647409178152,
-          "stop" : 1647409180622,
-          "duration" : 2470
+          "start" : 1649137213516,
+          "stop" : 1649137214632,
+          "duration" : 1116
         }
       }, {
-        "uid" : "109b535295673000",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/83//#testresult/109b535295673000",
+        "uid" : "c79ebc209555f619",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/103//#testresult/c79ebc209555f619",
         "status" : "passed",
         "time" : {
-          "start" : 1647322784374,
-          "stop" : 1647322785894,
-          "duration" : 1520
+          "start" : 1649050805321,
+          "stop" : 1649050806649,
+          "duration" : 1328
         }
       }, {
-        "uid" : "3a55c9095cfd5ea6",
-        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/82//#testresult/3a55c9095cfd5ea6",
+        "uid" : "e73788c52a1bd5d3",
+        "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/102//#testresult/e73788c52a1bd5d3",
         "status" : "passed",
         "time" : {
-          "start" : 1647237168796,
-          "stop" : 1647237171031,
-          "duration" : 2235
+          "start" : 1648964391125,
+          "stop" : 1648964393317,
+          "duration" : 2192
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "e73788c52a1bd5d3.json",
+  "source" : "69c78e69c08ccd2d.json",
   "parameterValues" : [ ]
 }

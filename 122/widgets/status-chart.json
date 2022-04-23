@@ -1,20 +1,20 @@
 [ {
-  "uid" : "e73788c52a1bd5d3",
+  "uid" : "69c78e69c08ccd2d",
   "name" : "This testng test is to validate login",
   "time" : {
-    "start" : 1648964391125,
-    "stop" : 1648964393317,
-    "duration" : 2192
+    "start" : 1650692449857,
+    "stop" : 1650692451644,
+    "duration" : 1787
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "56cc4969add6a765",
+  "uid" : "bee5e4c532e9b113",
   "name" : "This is a new testng test is to validate login",
   "time" : {
-    "start" : 1648964391083,
-    "stop" : 1648964393268,
-    "duration" : 2185
+    "start" : 1650692449650,
+    "stop" : 1650692451766,
+    "duration" : 2116
   },
   "status" : "passed",
   "severity" : "normal"
