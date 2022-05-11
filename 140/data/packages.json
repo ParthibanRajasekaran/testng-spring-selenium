@@ -6,13 +6,13 @@
       "name" : "SpringTestNGTest",
       "children" : [ {
         "name" : "testLogin",
-        "uid" : "965592b9948bd9ad",
+        "uid" : "4c0f6785d16a06ab",
         "parentUid" : "da8883375ec9eec5f777389dc221c472",
         "status" : "passed",
         "time" : {
-          "start" : 1650520648128,
-          "stop" : 1650520651052,
-          "duration" : 2924
+          "start" : 1652248121424,
+          "stop" : 1652248123052,
+          "duration" : 1628
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "SpringTestNGTestNew",
       "children" : [ {
         "name" : "testLogin",
-        "uid" : "ff3933875fd7e8a1",
+        "uid" : "ab442797819192b3",
         "parentUid" : "b3015d5fbcd6b084d9c13bfef5b90315",
         "status" : "passed",
         "time" : {
-          "start" : 1650520648316,
-          "stop" : 1650520650978,
-          "duration" : 2662
+          "start" : 1652248121425,
+          "stop" : 1652248122923,
+          "duration" : 1498
         },
         "flaky" : false,
         "newFailed" : false,
