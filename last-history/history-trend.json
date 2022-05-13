@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 142,
+  "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/142/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
   "buildOrder" : 141,
   "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/141/",
   "reportName" : "Allure Report with history",
@@ -217,18 +229,6 @@
 }, {
   "buildOrder" : 123,
   "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/123/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 2,
-    "unknown" : 0,
-    "total" : 2
-  }
-}, {
-  "buildOrder" : 122,
-  "reportUrl" : "https://ParthibanRajasekaran.github.io/testng-spring-selenium/122/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
