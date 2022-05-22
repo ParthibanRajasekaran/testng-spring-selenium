@@ -8,13 +8,13 @@
         "name" : "Regression Story",
         "children" : [ {
           "name" : "This is a new testng test is to validate login",
-          "uid" : "49fdeb9e6c920a88",
+          "uid" : "1904c04a109a67f2",
           "parentUid" : "52c81889f2b56e4028d2582c106327af",
           "status" : "passed",
           "time" : {
-            "start" : 1651470605244,
-            "stop" : 1651470606666,
-            "duration" : 1422
+            "start" : 1653198163981,
+            "stop" : 1653198165439,
+            "duration" : 1458
           },
           "flaky" : false,
           "newFailed" : false,
@@ -33,13 +33,13 @@
         "name" : "Smoke Story",
         "children" : [ {
           "name" : "This testng test is to validate login",
-          "uid" : "e6299984e8352815",
+          "uid" : "db7c3258f225da0f",
           "parentUid" : "27b1bdeb04cd7d758a9a11e862347b15",
           "status" : "passed",
           "time" : {
-            "start" : 1651470605581,
-            "stop" : 1651470606743,
-            "duration" : 1162
+            "start" : 1653198164266,
+            "stop" : 1653198165801,
+            "duration" : 1535
           },
           "flaky" : false,
           "newFailed" : false,
