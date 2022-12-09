@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 09 05:39:22 GMT 2022","Fri Dec 09 05:39:24 GMT 2022","1874","spring-boot","test-1","com.qa.feature.SpringTestNGTest","com.qa.feature.SpringTestNGTest","testLogin","This testng test is to validate login","This testng test is to validate login"
+"passed","Fri Dec 09 05:39:22 GMT 2022","Fri Dec 09 05:39:24 GMT 2022","1831","spring-boot","test-2","com.qa.feature.SpringTestNGTestNew","com.qa.feature.SpringTestNGTestNew","testLogin","This is a new testng test is to validate login","This is a new testng test is to validate login"
