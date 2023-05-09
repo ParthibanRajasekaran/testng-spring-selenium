@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Apr 19 05:41:58 GMT 2023","Wed Apr 19 05:41:58 GMT 2023","0","spring-boot","test-2","com.qa.feature.SpringTestNGTestNew","com.qa.feature.SpringTestNGTestNew","setupWebDriver","setupWebDriver",""
-"skipped","Wed Apr 19 05:41:59 GMT 2023","Wed Apr 19 05:41:59 GMT 2023","5","spring-boot","test-2","com.qa.feature.SpringTestNGTestNew","com.qa.feature.SpringTestNGTestNew","testLogin","This is a new testng test is to validate login","This is a new testng test is to validate login"
-"skipped","Wed Apr 19 05:41:59 GMT 2023","Wed Apr 19 05:41:59 GMT 2023","5","spring-boot","test-1","com.qa.feature.SpringTestNGTest","com.qa.feature.SpringTestNGTest","testLogin","This testng test is to validate login","This testng test is to validate login"
-"broken","Wed Apr 19 05:41:58 GMT 2023","Wed Apr 19 05:41:58 GMT 2023","2","spring-boot","test-1","com.qa.feature.SpringTestNGTest","com.qa.feature.SpringTestNGTest","setupWebDriver","setupWebDriver",""
