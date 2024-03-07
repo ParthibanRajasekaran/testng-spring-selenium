@@ -1,0 +1,1 @@
+[{"uid":"30bafb55c980ef15","name":"This testng test is to validate login","time":{"start":1709789914075,"stop":1709789914770,"duration":695},"status":"passed","severity":"normal"},{"uid":"de2150c6a0c16569","name":"This is a new testng test is to validate login","time":{"start":1709789914063,"stop":1709789914871,"duration":808},"status":"passed","severity":"normal"}]
